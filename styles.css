@@ -22,6 +22,15 @@ body {
     background-color: #37bff5 !important;
 }
 
+.page-header {
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+#main-content {
+    padding-top: 0px;
+}
+
 figure {
     padding: 50px;
 }
@@ -40,4 +49,6 @@ form {
 
 #brand-statement {
     position: relative;
+    padding: 45px;
 }
+
