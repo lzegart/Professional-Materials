@@ -15,7 +15,7 @@ article {
 }
 
 body {
-    background-image: url("./background3.jpg");
+    background-image: url("./Photos/background3.jpg");
 }
 
 .bg-light {
@@ -31,4 +31,9 @@ form {
     width: 50%;
     margin: 20px;
     padding: 50px;
+}
+
+#portfolio-image {
+    margin-bottom: 30px;
+    margin-left: 30px;
 }
