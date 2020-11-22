@@ -37,3 +37,7 @@ form {
     margin-bottom: 30px;
     margin-left: 30px;
 }
+
+#brand-statement {
+    position: relative;
+}
