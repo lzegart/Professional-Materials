@@ -52,3 +52,12 @@ form {
     padding: 45px;
 }
 
+footer {
+    color:#37bff5;
+    opacity: 85%;
+    margin-bottom: 0px;
+}
+
+#footer-text {
+    justify-content: center;
+}
