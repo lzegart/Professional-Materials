@@ -59,5 +59,6 @@ footer {
 }
 
 #footer-text {
-    justify-content: right;
+    width: fit-content;
+    margin: auto;
 }
