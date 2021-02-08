@@ -8,11 +8,15 @@
     font-family: 'Dancing Script', cursive;
 }
 
-.container {
-    padding: 70px;
-    margin: 50px;
+.mainContent {
+    padding: 10vw;
+    /* margin: 50px; */
     font-family: 'Crimson Text', serif;
     font-size: 18px;
+}
+
+.contactContent {
+    min-width: 300px;
 }
 
 article {
@@ -22,6 +26,7 @@ article {
 
 body {
     background-image: url("./Photos/background3.jpg");
+    padding-bottom: 50px;
 }
 
 nav {
@@ -79,6 +84,9 @@ footer {
     color:#37bff5;
     opacity: 85%;
     margin-bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
 }
 
 #footer-text {
@@ -88,3 +96,15 @@ footer {
     font-size: 25px;
 }
 
+@media screen and (max-width: 500px) {
+    .mainContent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 775px) {
+    .media {
+        flex-direction: column;
+    }
+}
